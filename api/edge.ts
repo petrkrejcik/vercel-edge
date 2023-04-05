@@ -7,5 +7,5 @@ export const config = {
 export default async function handler(req) {
   const { searchParams } = new URL(req.url)
   const email = searchParams.get('email')
-  return new Response(email)
+  return new Response(`Email: ${email}`)
 }
