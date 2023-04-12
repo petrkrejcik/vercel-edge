@@ -20,5 +20,5 @@ export default async function handler(req) {
   // const auth = edgeAuth.getFirebaseAuth(serviceAccount, 'AIzaSyBfTjSCoH4xl6UFa31Eyj8h-Tf2ZxwPbmU')
   // const customToken = typeof getTokenFromGCPServiceAccount;
   // const customToken = auth.createCustomToken('xxx')
-  return new Response(`Done: ${token}`);
+  return new Response(`Done`);
 }
